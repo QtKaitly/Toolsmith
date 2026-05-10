@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -52,14 +52,14 @@ namespace Toolsmith.Utils {
         public const string ToolsmithStatsKey = "ToolsmithPartStats";
         public const string ToolsmithWoodInToolBindingsData = "ToolsmithWoodInBindingsList";
 
-        public static ItemTagArray ToolsmithHeadItemTag;
-        public static ItemTagArray ToolsmithHandleItemTag;
-        public static ItemTagArray ToolsmithBindingItemTag;
-        public static ItemTagArray ToolsmithPartItemTag;
-        public static ItemTagArray ToolsmithMaintenanceItemTag;
+        public static CollectibleTagArray ToolsmithHeadItemTag;
+        public static CollectibleTagArray ToolsmithHandleItemTag;
+        public static CollectibleTagArray ToolsmithBindingItemTag;
+        public static CollectibleTagArray ToolsmithPartItemTag;
+        public static CollectibleTagArray ToolsmithMaintenanceItemTag;
 
-        public static BlockTagArray ToolsmithBindingBlockTag;
-        public static BlockTagArray ToolsmithPartBlockTag;
+        public static CollectibleTagArray ToolsmithBindingBlockTag;
+        public static CollectibleTagArray ToolsmithPartBlockTag;
 
         //The keys for accessing the default part entries themselves, to recieve their stat key blocks
         public const string DefaultHandlePartKey = "stick";
