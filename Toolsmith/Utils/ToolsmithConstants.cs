@@ -52,14 +52,14 @@ namespace Toolsmith.Utils {
         public const string ToolsmithStatsKey = "ToolsmithPartStats";
         public const string ToolsmithWoodInToolBindingsData = "ToolsmithWoodInBindingsList";
 
-        public static CollectibleTagArray ToolsmithHeadItemTag;
-        public static CollectibleTagArray ToolsmithHandleItemTag;
-        public static CollectibleTagArray ToolsmithBindingItemTag;
-        public static CollectibleTagArray ToolsmithPartItemTag;
-        public static CollectibleTagArray ToolsmithMaintenanceItemTag;
+        public static int[] ToolsmithHeadItemTag;
+        public static int[] ToolsmithHandleItemTag;
+        public static int[] ToolsmithBindingItemTag;
+        public static int[] ToolsmithPartItemTag;
+        public static int[] ToolsmithMaintenanceItemTag;
 
-        public static CollectibleTagArray ToolsmithBindingBlockTag;
-        public static CollectibleTagArray ToolsmithPartBlockTag;
+        public static int[] ToolsmithBindingBlockTag;
+        public static int[] ToolsmithPartBlockTag;
 
         //The keys for accessing the default part entries themselves, to recieve their stat key blocks
         public const string DefaultHandlePartKey = "stick";
